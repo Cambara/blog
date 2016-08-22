@@ -5770,4 +5770,13 @@ body {
   padding-bottom: 10px;
   text-align: justify; }
 
+.footer {
+  background-color: #C75629;
+  height: 50px;
+  margin-top: 15px;
+  border-top: 1px solid #929292;
+  color: #FFF;
+  padding: 10px;
+  text-align: center; }
+
 /*# sourceMappingURL=app.css.map */
