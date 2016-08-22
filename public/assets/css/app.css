@@ -5752,4 +5752,22 @@ body {
 .menu_option li a:hover .menu_option li a:after .menu_option li a:focus {
   background-color: #A23E17; }
 
+.post {
+  background-color: #FFF;
+  margin-top: 50px;
+  border: 1px solid #F3F3F3;
+  padding: 0px;
+  padding-bottom: 10px; }
+
+.post h3 {
+  padding-left: 30px;
+  border-bottom: 1px solid #F1F1F1;
+  padding-bottom: 10px; }
+
+.post p {
+  padding-left: 15px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  text-align: justify; }
+
 /*# sourceMappingURL=app.css.map */
