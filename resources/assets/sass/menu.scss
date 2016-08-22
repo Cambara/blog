@@ -1,0 +1,26 @@
+.menu
+{
+ background-color: #E85920 ;
+}
+.menu_title
+{
+  display: inline-block;
+  vertical-align: super;
+  color:#FFF;
+}
+.menu_option
+{
+  display: inline-block;
+  float: right;
+  margin-top: 20px;
+}
+.menu_option li a
+{
+  color: #FFF;
+}
+.menu_option li a:hover
+.menu_option li a:after
+.menu_option li a:focus
+{
+  background-color: #A23E17;
+}
