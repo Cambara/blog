@@ -5761,8 +5761,10 @@ body {
   padding: 0px;
   padding-bottom: 10px; }
 
-.post h3 {
-  padding-left: 30px;
+.post h3, .post h4, .post h6 {
+  padding-left: 30px; }
+
+.post h3, .post h4 {
   border-bottom: 1px solid #F1F1F1;
   padding-bottom: 10px; }
 

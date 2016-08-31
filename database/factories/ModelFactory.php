@@ -25,3 +25,10 @@ $factory->define(App\Post::class, function (Faker\Generator $faker) {
         'text'  => $faker->paragraph(),
     ];
 });
+$factory->define(App\Comment::class,function (Faker\Generator $faker){
+   return[
+     'email' => $faker->email,
+     'name'  => $faker->name,
+     'comment' => $faker->paragraph()
+   ];
+});
