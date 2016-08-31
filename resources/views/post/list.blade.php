@@ -5,7 +5,12 @@
         @foreach($posts as $post)
             <div class="row">
                 <div class="col-sm-offset-1 col-sm-10 col-xs-12 post">
-                    <h3>{{ $post["title"] }}</h3>
+                    <h3>
+                        {{ $post["title"] }} -
+                        @foreach($post->tags as $tag)
+                            {{ $tag->name }}
+                        @endforeach
+                    </h3>
                     <div class="col-sm-12">
                         <p>{{ $post["text"] }}</p>
                     </div>

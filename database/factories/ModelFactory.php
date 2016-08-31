@@ -32,3 +32,8 @@ $factory->define(App\Comment::class,function (Faker\Generator $faker){
      'comment' => $faker->paragraph()
    ];
 });
+$factory->define(App\Tag::class, function (Faker\Generator $faker){
+    return[
+      'name' => $faker->title
+    ];
+});

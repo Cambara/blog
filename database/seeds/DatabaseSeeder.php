@@ -2,6 +2,7 @@
 use Illuminate\Database\Seeder;
 use App\Post;
 use App\Comment;
+use App\Tag;
 class DatabaseSeeder extends Seeder
 {
     /**
@@ -12,9 +13,12 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         //Truncate
+        DB::table('posts_tags')->delete();
         Comment::truncate();
+        Tag::truncate();
         Post::truncate();
         $this->call(PostsTableSeeder::class);
         $this->call(CommentsTableSeeder::class);
+        $this->call(TagsTableSeeder::class);
     }
 }
