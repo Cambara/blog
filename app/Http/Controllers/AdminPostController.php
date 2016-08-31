@@ -57,7 +57,7 @@ class AdminPostController extends Controller
     {
         $tagList = array_filter(array_map('trim',explode(',',$tags)));
         $tagsIDs = array_map(function($tagName){
-            return Tag::firstOrCreate(['name' => $tagName])->id;},$tagList); 
+            return Tag::firstOrCreate(['name' => $tagName])->id;},$tagList);
         return $tagsIDs;
     }
 }
